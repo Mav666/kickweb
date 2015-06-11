@@ -1,0 +1,30 @@
+h1{
+	color: red;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  padding-left: 14px;
+  padding-top: 30px;
+
+}
+
+p {
+  font-size: 20px;
+  color: yellow;
+  padding-left: 320px;
+}
+
+.categories {
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.projects {
+  padding-left: 30px;
+  padding-top: 5px;
+}
+
+.project {
+  padding-left: 40px;
+  padding-top: 5px;
+}

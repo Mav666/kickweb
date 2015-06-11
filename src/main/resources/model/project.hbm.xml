@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="model">
+
+	<class name="Project" table="project_list">
+		<id name="id" column="id_project">
+			<generator class="native" />
+		</id>			
+		<property name="category" column="category" />
+		<property name="title" column="project_name" />
+		<property name="money" column="project_money" />
+		<property name="collectedMoney" column="collected_money" />
+		<property name="description" column="project_description	" />
+		<property name="daysOff" column="days_left" />
+		<property name="urlVideo" column="demo_video" />
+		<property name="history" column="project_history" />
+	</class>
+
+</hibernate-mapping>
